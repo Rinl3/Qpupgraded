@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "P,S",
+	width: 1,
+	height: 2,
+	ingredients: {
+		"P": { type: "item", code: "machines:braidedwire-copper"},
+		"S": { type: "item", code: "machines:bolt-iron"}
+	},
+	output: { type: "item", code: "handcoil"}
+}

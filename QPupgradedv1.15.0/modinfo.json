@@ -1,0 +1,13 @@
+{
+	"type": "Content",
+	"modid": "QPHard",
+	"name": "QPUpgraded",
+	"authors": ["Rinly"],
+	"description": "An attempt to further gregify and balance the wonderful mod that is QPTech",
+	"version": "1.15.0",
+	"dependencies":{
+		"game": "*",
+		"qptech": "*",
+		"glassmaking": "*"
+	}	
+}

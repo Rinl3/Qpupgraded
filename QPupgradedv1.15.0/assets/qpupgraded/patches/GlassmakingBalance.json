@@ -1,0 +1,74 @@
+[
+//blowpipe
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "iron",
+    "file": "glassmaking:recipes/smithing/glassworkpipepart.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "meteoriciron",
+    "file": "glassmaking:recipes/smithing/glassworkpipepart.json"
+  },
+//make glassworking tools out of iron and steel
+  {
+    "op": "add",
+    "path": "/0/ingredient/allowedVariants/-",
+    "value": "iron",
+    "file": "glassmaking:recipes/smithing/tools.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredient/allowedVariants/-",
+    "value": "meteoriciron",
+    "file": "glassmaking:recipes/smithing/tools.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/ingredient/allowedVariants/-",
+    "value": "iron",
+    "file": "glassmaking:recipes/smithing/tools.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/ingredient/allowedVariants/-",
+    "value": "meteoriciron",
+    "file": "glassmaking:recipes/smithing/tools.json"
+  },
+  //parchoffi
+   {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "iron",
+    "file": "glassmaking:recipes/smithing/parchoffipart.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "meteoriciron",
+    "file": "glassmaking:recipes/smithing/parchoffipart.json"
+  },
+  //workbench
+    {
+    "op": "add",
+    "path": "/ingredients/P/allowedVariants/-",
+    "value": "iron",
+    "file": "glassmaking:recipes/grid/workbench.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/P/allowedVariants/-",
+    "value": "meteoriciron",
+    "file": "glassmaking:recipes/grid/workbench.json"
+  },
+  
+  //Lowered Quartz MP
+  {
+    "op": "replace",
+    "path": "/variants/1/meltingPoint",
+    "value": 1250,
+    "file": "game:worldproperties/abstract/glasstype.json"
+  }
+]

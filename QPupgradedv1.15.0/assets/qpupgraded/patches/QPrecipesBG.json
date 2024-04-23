@@ -1,0 +1,168 @@
+[
+	//cheapen vacuum-tube slightly less braided wire 
+	{
+    "op": "replace",
+    "path": "/ingredients/R/quantity",
+    "value": 1,
+    "file": "machines:recipes/grid/part/vacuum-tube.json"
+	},
+	//disable steelring recipe made with smithing 
+    {
+        "file": "machines:recipes/grid/part/ring-steel.json",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [ { "modid": "qptech" } ]
+    },
+	//motors take prim circuits only one tho
+	{
+        "file": "machines:recipes/grid/part/motor-mv.json",
+        "op": "replace",
+        "path": "/ingredients/C/code",
+        "value": "circuitboard-primitive",
+        "dependsOn": [ { "modid": "qptech" } ]
+    },
+	{
+	"file": "machines:recipes/grid/part/motor-mv.json",
+    "op": "replace",
+    "path": "/ingredients/C/quantity",
+    "value": 1,
+    "dependsOn": [ { "modid": "qptech" } ]
+	},
+	//replace old prim circuit recipe 
+	  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "CVI,WBS,__H",
+    "file": "machines:recipes/grid/part/circuitboard-primitive.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/B",
+    "value": {
+      "type": "item",
+      "code": "qpupgraded:emptyphenboard",
+      "quantity": 1
+    },
+    "file": "machines:recipes/grid/part/circuitboard-primitive.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/C",
+    "value": {
+      "type": "item",
+      "code": "game:chisel-*",
+      "isTool": true,
+      "toolDurabilityCost": 5
+    },
+    "file": "machines:recipes/grid/part/circuitboard-primitive.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/H",
+    "value": {
+      "type": "item",
+      "code": "qpupgraded:handcoil",
+      "quantity": 1
+    },
+    "file": "machines:recipes/grid/part/circuitboard-primitive.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/I",
+    "value": {
+      "type": "item",
+      "code": "game:solderingiron",
+      "isTool": true,
+      "toolDurabilityCost": 5
+    },
+    "file": "machines:recipes/grid/part/circuitboard-primitive.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/S/code",
+    "value": "game:solderbar-*",
+    "file": "machines:recipes/grid/part/circuitboard-primitive.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/S/type",
+    "value": "item",
+    "file": "machines:recipes/grid/part/circuitboard-primitive.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/V/code",
+    "value": "machines:vacuum-tube",
+    "file": "machines:recipes/grid/part/circuitboard-primitive.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/W/code",
+    "value": "machines:wire-copper",
+    "file": "machines:recipes/grid/part/circuitboard-primitive.json"
+  },
+  {
+    "op": "replace",
+    "path": "/width",
+    "value": 3,
+    "file": "machines:recipes/grid/part/circuitboard-primitive.json"
+  },
+	//rotor patch 
+	{
+    "op": "replace",
+    "path": "/ingredients/R/quantity",
+    "value": 1,
+    "file": "machines:recipes/grid/part/rotor-mv.json"
+	},
+	{
+    "op": "replace",
+    "path": "/ingredients/W/code",
+    "value": "qpupgraded:handcoil",
+    "file": "machines:recipes/grid/part/rotor-mv.json"
+	},
+	{
+    "op": "replace",
+    "path": "/ingredients/W/quantity",
+    "value": 4,
+    "file": "machines:recipes/grid/part/rotor-mv.json"
+	},
+	//primitive motor swap wire to braided FIX iron/steel/meteoric rod only FIX
+	
+  //stator changes CHECK
+   {
+    "op": "replace",
+    "path": "/height",
+    "value": 3,
+    "file": "machines:recipes/grid/part/stator-mv.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "SCS,CRC,SCS",
+    "file": "machines:recipes/grid/part/stator-mv.json"
+  },
+  {
+    "op": "remove",
+    "path": "/ingredients/W",
+    "file": "machines:recipes/grid/part/stator-mv.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/C",
+    "value": {
+      "type": "item",
+      "code": "qpupgraded:handcoil",
+      "quantity": 1
+    },
+    "file": "machines:recipes/grid/part/stator-mv.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/S/code",
+    "value": "game:flaxtwine",
+    "file": "machines:recipes/grid/part/stator-mv.json"
+  }
+	
+	
+]

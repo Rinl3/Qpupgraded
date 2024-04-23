@@ -1,0 +1,10 @@
+{
+  code: "handcoil",
+  maxstacksize: 32,
+  creativeinventory: {
+    "general": ["*"]
+  },
+  texture: {
+    base: "item/handcoil"
+  }
+}

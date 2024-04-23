@@ -1,0 +1,13 @@
+[
+  {
+      "type": "Replace",
+      "outputCode": "qptech:lathe-mv-east",
+      "ingredients": [{ "ingredientCode": "qptech:cable-copper", "code": "qptech:circuitboard-primitive" }]
+  },
+  {
+      "type": "Copy",
+      "outputCode": "qptech:lathe-mv-east",
+      "outputCodeNew": "qptech:lathe-mv-east",
+      "ingredients": [{ "ingredientCode": "qptech:circuitboard-primitive", "code": "qptech:circuitboard-temporal" }]
+  }
+]

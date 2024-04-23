@@ -1,0 +1,62 @@
+[
+//lv mechanical generator 
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "STS,PRP,SBS",
+    "file": "machines:recipes/grid/industrial/other/mpgenerator.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/R",
+    "value": {
+      "type": "item",
+      "code": "machines:rod-*",
+      "allowedVariants": [
+        "steel",
+        "iron",
+        "meteoriciron"
+      ]
+    },
+    "file": "machines:recipes/grid/industrial/other/mpgenerator.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/P/quantity",
+    "value": 2,
+    "file": "machines:recipes/grid/industrial/other/mpgenerator.json"
+  },
+  {
+    "op": "remove",
+    "path": "/ingredients/T/isTool",
+    "file": "machines:recipes/grid/industrial/other/mpgenerator.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/T/quantity",
+    "value": 1,
+    "file": "machines:recipes/grid/industrial/other/mpgenerator.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/T/code",
+    "value": "machines:vacuum-tube*",
+    "file": "machines:recipes/grid/industrial/other/mpgenerator.json"
+  },
+  
+  //mv mechanical generator
+  {
+    "op": "replace",
+    "path": "/ingredients/B/code",
+    "value": "machines:mpgenerator-rotor-north",
+    "file": "machines:recipes/grid/industrial/other/mpgeneratoradvanced.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/S/code",
+    "value": "screw-steel",
+    "file": "machines:recipes/grid/industrial/other/mpgeneratoradvanced.json"
+  },
+
+  
+]

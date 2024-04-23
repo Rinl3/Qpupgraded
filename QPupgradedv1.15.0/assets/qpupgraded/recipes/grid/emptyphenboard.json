@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "S,L,C",
+	width: 1,
+	height: 3,
+	ingredients: {
+		"S": { type: "item", code: "game:resin"},
+		"L": { type: "block", code: "game:linen-*"},
+		"C": { type: "block", code: "game:metalsheet-copper-down"}
+	},
+	output: { type: "item", code: "emptyphenboard"}
+}

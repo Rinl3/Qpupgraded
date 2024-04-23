@@ -1,0 +1,155 @@
+[
+//battery-lv needs vinegar
+
+//clay former circuitboard instead of wire 
+  {
+    "op": "replace",
+    "path": "/ingredients/P/code",
+    "value": "machines:circuitboard-*",
+    "file": "machines:recipes/grid/industrial/lv/clayformer.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/P/quantity",
+    "value": 2,
+    "file": "machines:recipes/grid/industrial/lv/clayformer.json"
+  },
+
+//electric kiln FIX vacuum tube BL 
+    {
+    "op": "replace",
+    "path": "/ingredients/M/code",
+    "value": "machines:vacuum-tube",
+    "file": "machines:recipes/grid/industrial/lv/electrickilnlv.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/M/quantity",
+    "value": 2,
+    "file": "machines:recipes/grid/industrial/lv/electrickilnlv.json"
+  },
+
+
+
+
+//macerator neeeds circuit board
+   {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "SHS,PCA,EBM",
+    "file": "machines:recipes/grid/industrial/lv/macerator.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/E",
+    "value": {
+      "type": "item",
+      "code": "machines:circuitboard-*",
+      "quantity": 2
+    },
+    "file": "machines:recipes/grid/industrial/lv/macerator.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/M/quantity",
+    "value": 3,
+    "file": "machines:recipes/grid/industrial/lv/macerator.json"
+  },
+
+
+
+//all soft presses take vacuum tube BR
+
+//lvbender 
+   {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "MTS\tIBI\tRPV",
+    "file": "machines:recipes/grid/industrial/lv/metalpress-lvbender.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/V",
+    "value": {
+      "type": "item",
+      "code": "machines:vacuum-tube",
+      "quantity": 1
+    },
+    "file": "machines:recipes/grid/industrial/lv/metalpress-lvbender.json"
+  },
+  //lvplatepunch 
+   {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "MTS\tIBH\tHPV",
+    "file": "machines:recipes/grid/industrial/lv/metalpress-lvpunch.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/V",
+    "value": {
+      "type": "item",
+      "code": "machines:vacuum-tube",
+      "quantity": 1
+    },
+    "file": "machines:recipes/grid/industrial/lv/metalpress-lvpunch.json"
+  },
+    //softplate 
+   {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "MTS\tIBH\tRPV",
+    "file": "machines:recipes/grid/industrial/lv/metalpress-lvsoftmetalplate.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/V",
+    "value": {
+      "type": "item",
+      "code": "machines:vacuum-tube",
+      "quantity": 1
+    },
+    "file": "machines:recipes/grid/industrial/lv/metalpress-lvsoftmetalplate.json"
+  },
+      //softrod 
+   {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "MTS\tIBH\tRPV",
+    "file": "machines:recipes/grid/industrial/lv/metalpress-lvsoftrod.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/V",
+    "value": {
+      "type": "item",
+      "code": "machines:vacuum-tube",
+      "quantity": 1
+    },
+    "file": "machines:recipes/grid/industrial/lv/metalpress-lvsoftrod.json"
+  },
+        //softscrew 
+   {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "MTS\tIBH\tRPE",
+    "file": "machines:recipes/grid/industrial/lv/metalpress-lvsoftscrew.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/E",
+    "value": {
+      "type": "item",
+      "code": "machines:circuitboard-*",
+      "quantity": 1
+    },
+    "file": "machines:recipes/grid/industrial/lv/metalpress-lvsoftscrew.json"
+  }
+
+//washplant
+
+//wireplate-tin-2a (cable junction up) use any rod, 2x rubber wire, get 3 instead of 1
+
+//wireplate-tin-electricjunction (ground cable) 2x any rod above and bellow mid, 2x rubber wire in middle,screwdriver on side
+
+]
