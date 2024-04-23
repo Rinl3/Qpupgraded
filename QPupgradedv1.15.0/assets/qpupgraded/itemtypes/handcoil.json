@@ -1,10 +1,99 @@
 {
-  code: "handcoil",
-  maxstacksize: 32,
-  creativeinventory: {
-    "general": ["*"]
+	"code": "handcoil",
+	"creativeinventory": {
+		"qptech-parts": [ "*" ]
+	},
+	"drawtype": "json",
+	"shape": { "base": "item/handcoil.json" },
+	"maxstacksize": 32,
+	"attributes": {
+    "groundStorageTransform": {
+			"translation": {
+				"x": 0.01,
+				"y": -0.005,
+				"z": -0.01
+			},
+			"rotation": {
+				"x": 0,
+				"y": 45,
+				"z": -8
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0,
+				"z": 0.5
+			},
+			"scale": 1.3
+    }
   },
-  texture: {
-    base: "item/handcoil"
-  }
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "Quadrants",
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.0625,
+          "z2": 1
+        }
+      }
+    }
+  ],
+	"textures": {
+		
+	},
+
+	"guiTransform": {
+	translation: { x: -29, y: -62, z: 0 },
+	rotation: { x: -69, y: 32, z: -140 },
+	origin: { x: 0.5, y: 0.2, z: 0 },
+	scale: 5.53
+},
+	
+	"fpHandTransform": {
+		"translation": {
+			"x": -0.1,
+			"y": 0.2,
+			"z": 0
+		},
+		"rotation": {
+			"x": 90,
+			"y": 99,
+			"z": -42
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 2.15
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0.3,
+			"y": -0.2,
+			"z": -0.6
+		},
+		"rotation": {
+			"x": -180,
+			"y": 85,
+			"z": -180
+		},
+		"origin": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"scale": 0.71
+	},
+	tpHandTransform: {
+		translation: { x: 0.3, y: -0.2, z: -0.6 },
+		rotation: { x: -180, y: 85, z: -180 },
+		origin: { x: 0, y: -0, z: 0 },
+		scale: 0.71
+	}
+
 }
