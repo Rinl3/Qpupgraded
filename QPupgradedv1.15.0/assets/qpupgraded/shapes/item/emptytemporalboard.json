@@ -1,0 +1,28 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"temporalcircuittop": "item/temporalcircuittop"
+	},
+	"elements": [
+		{
+			"name": "CircuitBoard",
+			"from": [ 4.0, 0.0, 4.0 ],
+			"to": [ 12.0, 0.8, 12.0 ],
+			"rotationOrigin": [ 8.0, 0.4, 8.0 ],
+			"faces": {
+				"north": { "texture": "#temporalcircuittop", "uv": [ 4.0, 8.0, 6.0, 16.0 ], "rotation": 90, "autoUv": false },
+				"east": { "texture": "#temporalcircuittop", "uv": [ 4.0, 8.0, 6.0, 16.0 ], "rotation": 90, "autoUv": false },
+				"south": { "texture": "#temporalcircuittop", "uv": [ 4.0, 8.0, 6.0, 16.0 ], "rotation": 90, "autoUv": false },
+				"west": { "texture": "#temporalcircuittop", "uv": [ 4.0, 8.0, 6.0, 16.0 ], "rotation": 90, "autoUv": false },
+				"up": { "texture": "#temporalcircuittop", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+				"down": { "texture": "#temporalcircuittop", "uv": [ 0.0, 8.0, 8.0, 16.0 ] }
+			}
+		}
+	]}

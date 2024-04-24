@@ -1,0 +1,1213 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/relaybase1,Root/relaybase2,Root/Relay2/relaybaseframe3,Root/CoilCore/coilconnector3,Root/RelayBase/Contactor3,Root/Resistor5/Lead11,Root/Board/Resistor2,Root/relaybase1/CoilCore,Root/Resistor/Lead3,Root/CapBody/Lead,Root/Relay1/relaybaseframe,Root/Board/Resistor,Root/CapBody3,Root/CapBody,Root/CapBody2,Root/Board/relaybase1/CoilCore,Root/Board/relaybase2,Root/Board/relaybase1,Root/Relay2/Contactor4/Contactor5,Root/RelayBase,Root/Resistor2/Lead5,Root/Board/Resistor4,Root/Board/Resistor3,Root/Board/Resistor5,Root/Lead/Lead3,Root/CoilCore,Root/Relay2/CoilCore2,Root/Relay1/CoilCore,Root/RelayBase/relaybaseframe,Root/Relay2/Contactor4/Contactorconnector2,Root/Lead,Root/Resistor,Root/relaybase2/CoilCore2,Root/Relay2/CoilCore2/coilconnector5,Root/Board/CapBody3,Root/Resistor6,Root/CoilCore/coilconnector,Root/Resistor2,Root/Resistor3,Root/Resistor4,Root/Board/relaybase2/Contactorconnector2,Root/Resistor5",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"temporalcircuitboard": "C:/Users/Quinn/AppData/Roaming/VintagestoryData/Mods/qptech1.15.1/assets/machines/textures/item/temporalcircuitboard",
+		"burned": "block/clay/vessel/sides/burned",
+		"rusty2": "block/metal/corroded/rusty2",
+		"brass": "block/metal/plate/brass",
+		"copper": "block/metal/plate/copper",
+		"iron": "block/metal/plate/iron",
+		"tin": "block/metal/plate/tin"
+	},
+	"elements": [
+		{
+			"name": "Board",
+			"from": [ 4.0, 0.0, 4.0 ],
+			"to": [ 12.0, 0.7, 12.0 ],
+			"rotationOrigin": [ 8.2, 0.0, 8.2 ],
+			"faces": {
+				"north": { "texture": "#temporalcircuitboard", "uv": [ 1.0, 13.0, 14.0, 14.0 ], "autoUv": false },
+				"east": { "texture": "#temporalcircuitboard", "uv": [ 0.5, 2.4, 1.5, 13.5 ], "rotation": 270, "autoUv": false },
+				"south": { "texture": "#temporalcircuitboard", "uv": [ 1.0, 8.5, 14.0, 9.5 ], "rotation": 180, "autoUv": false },
+				"west": { "texture": "#temporalcircuitboard", "uv": [ 5.5, 8.5, 16.0, 9.5 ], "rotation": 180, "autoUv": false },
+				"up": { "texture": "#temporalcircuitboard", "uv": [ 1.0, 2.5, 14.0, 13.5 ], "rotation": 180, "autoUv": false },
+				"down": { "texture": "#temporalcircuitboard", "uv": [ 9.5, 10.0, 15.5, 15.0 ], "rotation": 90, "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "Resistor",
+					"from": [ 4.76, 0.406, 1.211 ],
+					"to": [ 4.8931, 1.0713, 1.3441 ],
+					"rotationOrigin": [ 4.8262, 0.476, 1.2761 ],
+					"faces": {
+						"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+						"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+						"south": { "texture": "#tin", "uv": [ 11.5, 8.0, 13.876, 9.9008 ], "autoUv": false },
+						"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+						"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.4256, 1.4256 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Lead2",
+							"from": [ 1.7963, 0.0, 0.0 ],
+							"to": [ 1.9293, 0.6653, 0.1331 ],
+							"rotationOrigin": [ 1.8628, 0.0665, 0.0665 ],
+							"faces": {
+								"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"south": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.4256, 1.4256 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Lead3",
+							"from": [ 0.1331, 0.5322, 0.0 ],
+							"to": [ 0.2661, 2.1954, 0.1331 ],
+							"rotationOrigin": [ 0.1996, 0.5988, 0.0665 ],
+							"rotationZ": -90.0,
+							"faces": {
+								"north": { "texture": "#tin", "uv": [ 4.0, 2.5, 6.376, 7.252 ], "autoUv": false },
+								"south": { "texture": "#tin", "uv": [ 5.0, 3.0, 7.376, 7.752 ], "autoUv": false },
+								"west": { "texture": "#tin", "uv": [ 6.5, 2.5, 8.876, 7.252 ], "autoUv": false },
+								"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 0.4752, 0.4752 ], "autoUv": false },
+								"down": { "texture": "#tin", "uv": [ 0.0, 0.0, 0.4752, 0.4752 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Resistorbody2",
+									"from": [ -0.0832, 0.183, -0.0998 ],
+									"to": [ 0.2162, 1.4802, 0.2328 ],
+									"rotationOrigin": [ 0.0665, 0.8316, 0.0665 ],
+									"faces": {
+										"north": { "texture": "#rusty2", "uv": [ 2.5, 14.0, 4.876, 14.4752 ], "rotation": 270, "autoUv": false },
+										"south": { "texture": "#rusty2", "uv": [ 2.5, 14.0, 4.876, 14.4752 ], "rotation": 270, "autoUv": false },
+										"west": { "texture": "#rusty2", "uv": [ 2.5, 14.0, 4.876, 14.4752 ], "rotation": 270, "autoUv": false },
+										"up": { "texture": "#rusty2", "uv": [ 5.5, 13.5, 5.0248, 13.9752 ], "autoUv": false },
+										"down": { "texture": "#rusty2", "uv": [ 4.0, 14.0, 3.5248, 14.4752 ], "autoUv": false }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Resistor2",
+					"from": [ 4.1, 0.41, 7.0 ],
+					"to": [ 4.2331, 1.0753, 7.1331 ],
+					"rotationOrigin": [ 4.823, 0.476, 7.134 ],
+					"rotationY": 89.98,
+					"faces": {
+						"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+						"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+						"south": { "texture": "#tin", "uv": [ 11.5, 8.0, 13.876, 9.9008 ], "autoUv": false },
+						"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+						"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.4256, 1.4256 ], "autoUv": false },
+						"down": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.4256, 1.4256 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Lead4",
+							"from": [ 1.7963, 0.0, 0.0 ],
+							"to": [ 1.9293, 0.6653, 0.1331 ],
+							"rotationOrigin": [ 1.8628, 0.0665, 0.0665 ],
+							"faces": {
+								"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"south": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.4256, 1.4256 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Lead5",
+							"from": [ 0.1331, 0.5322, 0.0 ],
+							"to": [ 0.2661, 2.1954, 0.1331 ],
+							"rotationOrigin": [ 0.1996, 0.5988, 0.0665 ],
+							"rotationZ": -90.0,
+							"faces": {
+								"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 4.752 ], "autoUv": false },
+								"south": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 4.752 ], "autoUv": false },
+								"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 4.752 ], "autoUv": false },
+								"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 0.4752, 0.4752 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Resistorbody4",
+									"from": [ -0.0832, 0.183, -0.0998 ],
+									"to": [ 0.2162, 1.4802, 0.2328 ],
+									"rotationOrigin": [ 0.0665, 0.8316, 0.0665 ],
+									"faces": {
+										"north": { "texture": "#rusty2", "uv": [ 2.5, 14.0, 4.876, 14.4752 ], "rotation": 270, "autoUv": false },
+										"south": { "texture": "#rusty2", "uv": [ 2.5, 14.0, 4.876, 14.4752 ], "rotation": 270, "autoUv": false },
+										"west": { "texture": "#rusty2", "uv": [ 2.5, 14.0, 4.876, 14.4752 ], "rotation": 270, "autoUv": false },
+										"up": { "texture": "#rusty2", "uv": [ 5.5, 13.5, 5.0248, 13.9752 ], "autoUv": false },
+										"down": { "texture": "#rusty2", "uv": [ 4.0, 14.0, 3.5248, 14.4752 ], "autoUv": false }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Resistor3",
+					"from": [ 4.75, 0.41, 7.0 ],
+					"to": [ 4.8831, 1.0753, 7.1331 ],
+					"rotationOrigin": [ 5.483, 0.476, 7.134 ],
+					"rotationY": 89.98,
+					"faces": {
+						"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+						"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+						"south": { "texture": "#tin", "uv": [ 11.5, 8.0, 13.876, 9.9008 ], "autoUv": false },
+						"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+						"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.4256, 1.4256 ], "autoUv": false },
+						"down": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.4256, 1.4256 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Lead6",
+							"from": [ 1.7963, 0.0, 0.0 ],
+							"to": [ 1.9293, 0.6653, 0.1331 ],
+							"rotationOrigin": [ 1.8628, 0.0665, 0.0665 ],
+							"faces": {
+								"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"south": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.4256, 1.4256 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Lead7",
+							"from": [ 0.1331, 0.5322, 0.0 ],
+							"to": [ 0.2661, 2.1954, 0.1331 ],
+							"rotationOrigin": [ 0.1996, 0.5988, 0.0665 ],
+							"rotationZ": -90.0,
+							"faces": {
+								"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 4.752 ], "autoUv": false },
+								"south": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 4.752 ], "autoUv": false },
+								"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 4.752 ], "autoUv": false },
+								"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 0.4752, 0.4752 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Resistorbody6",
+									"from": [ -0.0832, 0.183, -0.0998 ],
+									"to": [ 0.2162, 1.4802, 0.2328 ],
+									"rotationOrigin": [ 0.0665, 0.8316, 0.0665 ],
+									"faces": {
+										"north": { "texture": "#rusty2", "uv": [ 2.5, 14.0, 4.876, 14.4752 ], "rotation": 270, "autoUv": false },
+										"south": { "texture": "#rusty2", "uv": [ 2.5, 14.0, 4.876, 14.4752 ], "rotation": 270, "autoUv": false },
+										"west": { "texture": "#rusty2", "uv": [ 2.5, 14.0, 4.876, 14.4752 ], "rotation": 270, "autoUv": false },
+										"up": { "texture": "#rusty2", "uv": [ 5.5, 13.5, 5.0248, 13.9752 ], "autoUv": false },
+										"down": { "texture": "#rusty2", "uv": [ 4.0, 14.0, 3.5248, 14.4752 ], "autoUv": false }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Resistor4",
+					"from": [ 5.6, 0.41, 6.6 ],
+					"to": [ 5.7331, 1.0753, 6.7331 ],
+					"rotationOrigin": [ 6.413, 0.476, 7.034 ],
+					"rotationY": 89.98,
+					"faces": {
+						"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+						"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+						"south": { "texture": "#tin", "uv": [ 11.5, 8.0, 13.876, 9.9008 ], "autoUv": false },
+						"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+						"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.4256, 1.4256 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Lead8",
+							"from": [ 1.7963, 0.0, 0.0 ],
+							"to": [ 1.9293, 0.6653, 0.1331 ],
+							"rotationOrigin": [ 1.8628, 0.0665, 0.0665 ],
+							"faces": {
+								"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"south": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.4256, 1.4256 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Lead9",
+							"from": [ 0.133, 0.532, 0.0 ],
+							"to": [ 0.2661, 2.1952, 0.1331 ],
+							"rotationOrigin": [ 0.1996, 0.5988, 0.0665 ],
+							"rotationZ": -90.0,
+							"faces": {
+								"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 4.752 ], "autoUv": false },
+								"south": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 4.752 ], "autoUv": false },
+								"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 4.752 ], "autoUv": false },
+								"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 0.4752, 0.4752 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Resistorbody8",
+									"from": [ -0.0832, 0.183, -0.0998 ],
+									"to": [ 0.2162, 1.4802, 0.2328 ],
+									"rotationOrigin": [ 0.0665, 0.8316, 0.0665 ],
+									"faces": {
+										"north": { "texture": "#rusty2", "uv": [ 2.5, 14.0, 4.876, 14.4752 ], "rotation": 270, "autoUv": false },
+										"south": { "texture": "#rusty2", "uv": [ 2.5, 14.0, 4.876, 14.4752 ], "rotation": 270, "autoUv": false },
+										"west": { "texture": "#rusty2", "uv": [ 2.5, 14.0, 4.876, 14.4752 ], "rotation": 270, "autoUv": false },
+										"up": { "texture": "#rusty2", "uv": [ 5.5, 13.5, 5.0248, 13.9752 ], "autoUv": false },
+										"down": { "texture": "#rusty2", "uv": [ 4.0, 14.0, 3.5248, 14.4752 ], "autoUv": false }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Resistor5",
+					"from": [ 5.88, 0.406, 7.0 ],
+					"to": [ 6.0131, 1.0713, 7.1331 ],
+					"rotationOrigin": [ 6.643, 0.476, 7.134 ],
+					"rotationY": 89.98,
+					"faces": {
+						"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+						"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+						"south": { "texture": "#tin", "uv": [ 11.5, 8.0, 13.876, 9.9008 ], "autoUv": false },
+						"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+						"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.4256, 1.4256 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Lead10",
+							"from": [ 1.7963, 0.0, 0.0 ],
+							"to": [ 1.9293, 0.6653, 0.1331 ],
+							"rotationOrigin": [ 1.8628, 0.0665, 0.0665 ],
+							"faces": {
+								"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"south": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.4256, 1.4256 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Lead11",
+							"from": [ 0.133, 0.532, 0.0 ],
+							"to": [ 0.2661, 2.1952, 0.1331 ],
+							"rotationOrigin": [ 0.1996, 0.5988, 0.0665 ],
+							"rotationZ": -90.0,
+							"faces": {
+								"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 4.752 ], "autoUv": false },
+								"south": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 4.752 ], "autoUv": false },
+								"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 4.752 ], "autoUv": false },
+								"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 0.4752, 0.4752 ], "autoUv": false },
+								"down": { "texture": "#tin", "uv": [ 0.0, 0.0, 0.4752, 0.4752 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Resistorbody10",
+									"from": [ -0.0832, 0.183, -0.0998 ],
+									"to": [ 0.2162, 1.4802, 0.2328 ],
+									"rotationOrigin": [ 0.0665, 0.8316, 0.0665 ],
+									"faces": {
+										"north": { "texture": "#rusty2", "uv": [ 2.5, 14.0, 4.876, 14.4752 ], "rotation": 270, "autoUv": false },
+										"south": { "texture": "#rusty2", "uv": [ 2.5, 14.0, 4.876, 14.4752 ], "rotation": 270, "autoUv": false },
+										"west": { "texture": "#rusty2", "uv": [ 2.5, 14.0, 4.876, 14.4752 ], "rotation": 270, "autoUv": false },
+										"up": { "texture": "#rusty2", "uv": [ 5.5, 13.5, 5.0248, 13.9752 ], "autoUv": false },
+										"down": { "texture": "#rusty2", "uv": [ 4.0, 14.0, 3.5248, 14.4752 ], "autoUv": false }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Resistor6",
+					"from": [ 6.41, 0.41, 7.07 ],
+					"to": [ 6.5431, 1.0753, 7.2031 ],
+					"rotationOrigin": [ 7.173, 0.476, 7.134 ],
+					"rotationY": 89.98,
+					"faces": {
+						"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+						"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+						"south": { "texture": "#tin", "uv": [ 11.5, 8.0, 13.876, 9.9008 ], "autoUv": false },
+						"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+						"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.4256, 1.4256 ], "autoUv": false },
+						"down": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.4256, 1.4256 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Lead12",
+							"from": [ 1.7963, 0.0, 0.0 ],
+							"to": [ 1.9293, 0.6653, 0.1331 ],
+							"rotationOrigin": [ 1.8628, 0.0665, 0.0665 ],
+							"faces": {
+								"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"south": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 1.9008 ], "autoUv": false },
+								"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.4256, 1.4256 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Lead13",
+							"from": [ 0.133, 0.532, 0.0 ],
+							"to": [ 0.2661, 2.1952, 0.1331 ],
+							"rotationOrigin": [ 0.1996, 0.5988, 0.0665 ],
+							"rotationZ": -90.0,
+							"faces": {
+								"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 4.752 ], "autoUv": false },
+								"south": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 4.752 ], "autoUv": false },
+								"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 2.376, 4.752 ], "autoUv": false },
+								"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 0.4752, 0.4752 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Resistorbody12",
+									"from": [ -0.0832, 0.183, -0.0998 ],
+									"to": [ 0.2162, 1.4802, 0.2328 ],
+									"rotationOrigin": [ 0.0665, 0.8316, 0.0665 ],
+									"faces": {
+										"north": { "texture": "#rusty2", "uv": [ 2.5, 14.0, 4.876, 14.4752 ], "rotation": 270, "autoUv": false },
+										"south": { "texture": "#rusty2", "uv": [ 2.5, 14.0, 4.876, 14.4752 ], "rotation": 270, "autoUv": false },
+										"west": { "texture": "#rusty2", "uv": [ 2.5, 14.0, 4.876, 14.4752 ], "rotation": 270, "autoUv": false },
+										"up": { "texture": "#rusty2", "uv": [ 5.5, 13.5, 5.0248, 13.9752 ], "autoUv": false },
+										"down": { "texture": "#rusty2", "uv": [ 4.0, 14.0, 3.5248, 14.4752 ], "autoUv": false }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "CapBody",
+					"from": [ 3.03, 0.987, 1.2694 ],
+					"to": [ 3.9655, 1.9225, 1.5813 ],
+					"rotationOrigin": [ 3.0238, 0.9842, 1.2694 ],
+					"faces": {
+						"north": { "texture": "#rusty2", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false },
+						"east": { "texture": "#rusty2", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+						"south": { "texture": "#rusty2", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false },
+						"west": { "texture": "#rusty2", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+						"up": { "texture": "#rusty2", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Lead",
+							"from": [ 0.0779, -0.3118, 0.0779 ],
+							"to": [ 0.2339, 0.6237, 0.2339 ],
+							"rotationOrigin": [ 0.1403, -0.2495, 0.1247 ],
+							"faces": {
+								"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.1137, 0.891 ], "autoUv": false },
+								"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.1137, 0.891 ], "autoUv": false },
+								"south": { "texture": "#tin", "uv": [ 11.5, 8.0, 12.6137, 8.891 ], "autoUv": false },
+								"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.1137, 0.891 ], "autoUv": false },
+								"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 0.6682, 0.6682 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Lead2",
+									"from": [ 0.6237, 0.0, 0.0 ],
+									"to": [ 0.7796, 0.9355, 0.1559 ],
+									"rotationOrigin": [ 0.6861, 0.0624, 0.0624 ],
+									"faces": {
+										"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.1137, 0.891 ], "autoUv": false },
+										"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.1137, 0.891 ], "autoUv": false },
+										"south": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.1137, 0.891 ], "autoUv": false },
+										"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.1137, 0.891 ], "autoUv": false },
+										"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 0.6682, 0.6682 ], "autoUv": false }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "CapBody2",
+					"from": [ 3.03, 0.987, 0.7056 ],
+					"to": [ 3.9655, 1.9225, 1.0174 ],
+					"rotationOrigin": [ 3.0238, 0.9842, 0.7024 ],
+					"faces": {
+						"north": { "texture": "#rusty2", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false },
+						"east": { "texture": "#rusty2", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+						"south": { "texture": "#rusty2", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false },
+						"west": { "texture": "#rusty2", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+						"up": { "texture": "#rusty2", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Lead14",
+							"from": [ 0.0779, -0.3118, 0.0779 ],
+							"to": [ 0.2339, 0.6237, 0.2339 ],
+							"rotationOrigin": [ 0.1403, -0.2495, 0.1247 ],
+							"faces": {
+								"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.2375, 0.99 ], "autoUv": false },
+								"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.2375, 0.99 ], "autoUv": false },
+								"south": { "texture": "#tin", "uv": [ 11.5, 8.0, 12.7375, 8.99 ], "autoUv": false },
+								"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.2375, 0.99 ], "autoUv": false },
+								"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 0.7425, 0.7425 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Lead15",
+									"from": [ 0.6237, 0.0, 0.0 ],
+									"to": [ 0.7796, 0.9355, 0.1559 ],
+									"rotationOrigin": [ 0.6861, 0.0624, 0.0624 ],
+									"faces": {
+										"north": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.2375, 0.99 ], "autoUv": false },
+										"east": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.2375, 0.99 ], "autoUv": false },
+										"south": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.2375, 0.99 ], "autoUv": false },
+										"west": { "texture": "#tin", "uv": [ 0.0, 0.0, 1.2375, 0.99 ], "autoUv": false },
+										"up": { "texture": "#tin", "uv": [ 0.0, 0.0, 0.7425, 0.7425 ], "autoUv": false }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "relaybase1",
+					"from": [ 2.975, 0.35, 2.73 ],
+					"to": [ 3.885, 2.1, 3.01 ],
+					"rotationOrigin": [ 3.535, 0.35, 2.87 ],
+					"faces": {
+						"north": { "texture": "#burned", "uv": [ 7.0, 7.5, 8.0, 10.0 ], "autoUv": false },
+						"east": { "texture": "#burned", "uv": [ 8.5, 7.0, 9.0, 9.5 ], "autoUv": false },
+						"south": { "texture": "#burned", "uv": [ 7.5, 7.0, 8.5, 9.5 ], "autoUv": false },
+						"west": { "texture": "#burned", "uv": [ 7.5, 7.0, 8.0, 9.5 ], "autoUv": false },
+						"up": { "texture": "#burned", "uv": [ 8.5, 7.5, 9.5, 8.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+					},
+					"children": [
+						{
+							"name": "relaybaseframe2",
+							"from": [ 0.0, 0.07, 2.59 ],
+							"to": [ 0.91, 1.82, 2.87 ],
+							"rotationOrigin": [ 0.56, 0.07, 2.73 ],
+							"faces": {
+								"north": { "texture": "#burned", "uv": [ 7.5, 7.5, 8.5, 10.0 ], "autoUv": false },
+								"east": { "texture": "#burned", "uv": [ 9.0, 7.5, 9.5, 10.0 ], "autoUv": false },
+								"south": { "texture": "#burned", "uv": [ 8.0, 6.5, 9.0, 9.0 ], "autoUv": false },
+								"west": { "texture": "#burned", "uv": [ 8.5, 6.0, 9.0, 8.5 ], "autoUv": false },
+								"up": { "texture": "#burned", "uv": [ 7.5, 8.0, 8.5, 8.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Contactor3",
+							"from": [ 0.21, 0.98, 3.367 ],
+							"to": [ 0.63, 1.47, 3.507 ],
+							"rotationOrigin": [ 0.35, 1.295, 3.36 ],
+							"rotationX": -5.0,
+							"faces": {
+								"east": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 2.5, 5.5, 3.0, 6.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "CoilCore",
+							"from": [ 0.105, 0.84, -0.07 ],
+							"to": [ 0.805, 1.54, 3.15 ],
+							"rotationOrigin": [ 0.455, 1.19, 1.68 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 0.0, 0.0, 4.5, 1.0 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 0.0, 0.0, 4.5, 1.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 0.0, 0.0, 1.0, 4.5 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "CoilsideW",
+									"from": [ -0.28, -0.56, 0.42 ],
+									"to": [ 0.0, 0.63, 0.7 ],
+									"rotationOrigin": [ -0.14, -0.21, 0.56 ],
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"east": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilTop",
+									"from": [ -0.28, 0.56, 0.42 ],
+									"to": [ 0.0, 1.75, 0.7 ],
+									"rotationOrigin": [ -0.14, 0.7, 0.56 ],
+									"rotationY": -10.0,
+									"rotationZ": -90.0,
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilSideE",
+									"from": [ 0.7, 0.0, 0.63 ],
+									"to": [ 0.98, 0.7, 0.91 ],
+									"rotationOrigin": [ 0.84, 0.35, 0.77 ],
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"east": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilBottom",
+									"from": [ 0.63, -1.12, 0.63 ],
+									"to": [ 0.91, 0.07, 0.91 ],
+									"rotationOrigin": [ 0.77, -0.07, 0.77 ],
+									"rotationY": 10.0,
+									"rotationZ": -90.0,
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.5, 0.5, 1.0, 2.0 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 4.5, 4.0, 5.0, 4.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilsideW2",
+									"from": [ -0.28, 0.0, 0.84 ],
+									"to": [ 0.0, 0.7, 1.12 ],
+									"rotationOrigin": [ -0.14, 0.35, 0.98 ],
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilTop2",
+									"from": [ -0.28, 0.56, 0.84 ],
+									"to": [ 0.0, 1.75, 1.12 ],
+									"rotationOrigin": [ -0.14, 0.7, 0.98 ],
+									"rotationY": -10.0,
+									"rotationZ": -90.0,
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilSideE2",
+									"from": [ 0.7, 0.0, 1.05 ],
+									"to": [ 0.98, 0.7, 1.33 ],
+									"rotationOrigin": [ 0.84, 0.35, 1.19 ],
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"east": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilBottom2",
+									"from": [ 0.63, -1.12, 1.05 ],
+									"to": [ 0.91, 0.07, 1.33 ],
+									"rotationOrigin": [ 0.77, -0.07, 1.19 ],
+									"rotationY": 10.0,
+									"rotationZ": -90.0,
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilsideW3",
+									"from": [ -0.28, 0.0, 1.26 ],
+									"to": [ 0.0, 0.7, 1.54 ],
+									"rotationOrigin": [ -0.14, 0.35, 1.4 ],
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilTop3",
+									"from": [ -0.28, 0.56, 1.26 ],
+									"to": [ 0.0, 1.75, 1.54 ],
+									"rotationOrigin": [ -0.14, 0.7, 1.4 ],
+									"rotationY": -10.0,
+									"rotationZ": -90.0,
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilSideE3",
+									"from": [ 0.7, 0.0, 1.47 ],
+									"to": [ 0.98, 0.7, 1.75 ],
+									"rotationOrigin": [ 0.84, 0.35, 1.61 ],
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"east": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilBottom3",
+									"from": [ 0.63, -1.12, 1.47 ],
+									"to": [ 0.91, 0.07, 1.75 ],
+									"rotationOrigin": [ 0.77, -0.07, 1.61 ],
+									"rotationY": 10.0,
+									"rotationZ": -90.0,
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilsideW4",
+									"from": [ -0.28, 0.0, 1.68 ],
+									"to": [ 0.0, 0.7, 1.96 ],
+									"rotationOrigin": [ -0.14, 0.35, 1.82 ],
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilTop4",
+									"from": [ -0.28, 0.56, 1.68 ],
+									"to": [ 0.0, 1.75, 1.96 ],
+									"rotationOrigin": [ -0.14, 0.7, 1.82 ],
+									"rotationY": -10.0,
+									"rotationZ": -90.0,
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilSideE4",
+									"from": [ 0.7, 0.0, 1.89 ],
+									"to": [ 0.98, 0.7, 2.17 ],
+									"rotationOrigin": [ 0.84, 0.35, 2.03 ],
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"east": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilBottom4",
+									"from": [ 0.63, -1.12, 1.89 ],
+									"to": [ 0.91, 0.07, 2.17 ],
+									"rotationOrigin": [ 0.77, -0.07, 2.03 ],
+									"rotationY": 10.0,
+									"rotationZ": -90.0,
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilsideW5",
+									"from": [ -0.28, 0.0, 2.1 ],
+									"to": [ 0.0, 0.7, 2.38 ],
+									"rotationOrigin": [ -0.14, 0.35, 2.24 ],
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilTop5",
+									"from": [ -0.28, 0.56, 2.1 ],
+									"to": [ 0.0, 1.75, 2.38 ],
+									"rotationOrigin": [ -0.14, 0.7, 2.24 ],
+									"rotationY": -10.0,
+									"rotationZ": -90.0,
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilSideE5",
+									"from": [ 0.7, -0.56, 2.31 ],
+									"to": [ 0.98, 0.7, 2.59 ],
+									"rotationOrigin": [ 0.84, -0.21, 2.45 ],
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"east": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "copperbus2",
+									"from": [ 0.3852, -0.525, 1.8549 ],
+									"to": [ 1.5052, -0.315, 2.1349 ],
+									"rotationOrigin": [ 0.805, -0.42, 1.96 ],
+									"rotationY": 89.98,
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "autoUv": false },
+										"east": { "texture": "#copper", "uv": [ 1.0, 2.0, 1.5, 2.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 1.0, 0.0, 1.5, 0.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 1.5, 0.5 ], "autoUv": false }
+									}
+								}
+							]
+						},
+						{
+							"name": "Contactorconnector",
+							"from": [ -0.21, 0.0, 3.01 ],
+							"to": [ 0.0, 0.84, 3.5 ],
+							"rotationOrigin": [ 0.035, 0.175, 3.115 ],
+							"rotationZ": -90.0,
+							"faces": {
+								"north": { "texture": "#burned", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+								"south": { "texture": "#burned", "uv": [ 3.0, 6.5, 3.5, 7.5 ], "autoUv": false },
+								"west": { "texture": "#burned", "uv": [ 5.0, 3.5, 5.5, 4.5 ], "autoUv": false },
+								"up": { "texture": "#burned", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+								"down": { "texture": "#burned", "uv": [ 0.0, 1.5, 0.5, 2.0 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Contactor2",
+									"from": [ -1.02, -0.49, 0.28 ],
+									"to": [ -0.6, 0.63, 0.35 ],
+									"rotationOrigin": [ -0.88, 0.49, 0.28 ],
+									"rotationY": -5.0,
+									"rotationZ": 90.0,
+									"faces": {
+										"north": { "texture": "#brass", "uv": [ 6.5, 4.5, 7.0, 6.0 ], "autoUv": false },
+										"east": { "texture": "#brass", "uv": [ 5.5, 5.0, 6.0, 6.5 ], "autoUv": false },
+										"south": { "texture": "#brass", "uv": [ 3.0, 5.0, 3.5, 6.5 ], "autoUv": false },
+										"west": { "texture": "#brass", "uv": [ 2.5, 4.0, 3.0, 5.5 ], "autoUv": false },
+										"up": { "texture": "#brass", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "Contactorfixed",
+									"from": [ -0.28, 0.14, 0.07 ],
+									"to": [ 0.14, 1.54, 0.21 ],
+									"rotationOrigin": [ -0.14, 0.49, 0.07 ],
+									"rotationZ": 90.0,
+									"faces": {
+										"north": { "texture": "#brass", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "autoUv": false },
+										"east": { "texture": "#brass", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "autoUv": false },
+										"south": { "texture": "#brass", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "autoUv": false },
+										"west": { "texture": "#brass", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "autoUv": false },
+										"up": { "texture": "#brass", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "relaybase2",
+					"from": [ 1.575, 0.35, 2.73 ],
+					"to": [ 2.485, 2.1, 3.01 ],
+					"rotationOrigin": [ 2.135, 0.35, 2.87 ],
+					"faces": {
+						"north": { "texture": "#burned", "uv": [ 7.0, 7.5, 8.0, 10.0 ], "autoUv": false },
+						"east": { "texture": "#burned", "uv": [ 8.5, 7.0, 9.0, 9.5 ], "autoUv": false },
+						"south": { "texture": "#burned", "uv": [ 7.5, 7.0, 8.5, 9.5 ], "autoUv": false },
+						"west": { "texture": "#burned", "uv": [ 7.5, 7.0, 8.0, 9.5 ], "autoUv": false },
+						"up": { "texture": "#burned", "uv": [ 8.5, 7.5, 9.5, 8.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "relaybaseframe4",
+							"from": [ 0.0, 0.07, 2.59 ],
+							"to": [ 0.91, 1.82, 2.87 ],
+							"rotationOrigin": [ 0.56, 0.07, 2.73 ],
+							"faces": {
+								"north": { "texture": "#burned", "uv": [ 7.5, 7.5, 8.5, 10.0 ], "autoUv": false },
+								"east": { "texture": "#burned", "uv": [ 9.0, 7.5, 9.5, 10.0 ], "autoUv": false },
+								"south": { "texture": "#burned", "uv": [ 8.0, 6.5, 9.0, 9.0 ], "autoUv": false },
+								"west": { "texture": "#burned", "uv": [ 8.5, 6.0, 9.0, 8.5 ], "autoUv": false },
+								"up": { "texture": "#burned", "uv": [ 7.5, 8.0, 8.5, 8.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Contactor4",
+							"from": [ 0.21, 0.98, 3.367 ],
+							"to": [ 0.63, 1.47, 3.507 ],
+							"rotationOrigin": [ 0.35, 1.225, 3.36 ],
+							"rotationX": -5.0,
+							"faces": {
+								"east": { "texture": "#iron", "uv": [ 6.0, 6.5, 6.5, 7.0 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 4.0, 6.5, 4.5, 7.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+								"down": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "CoilCore2",
+							"from": [ 0.105, 0.84, -0.07 ],
+							"to": [ 0.805, 1.54, 3.15 ],
+							"rotationOrigin": [ 0.455, 1.19, 1.68 ],
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false },
+								"east": { "texture": "#iron", "uv": [ 0.0, 0.0, 4.5, 1.0 ], "autoUv": false },
+								"south": { "texture": "#iron", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false },
+								"west": { "texture": "#iron", "uv": [ 0.0, 0.0, 4.5, 1.0 ], "autoUv": false },
+								"up": { "texture": "#iron", "uv": [ 0.0, 0.0, 1.0, 4.5 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "CoilsideW6",
+									"from": [ -0.28, -0.56, 0.42 ],
+									"to": [ 0.0, 0.63, 0.7 ],
+									"rotationOrigin": [ -0.14, -0.21, 0.56 ],
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 3.5, 3.5, 4.0, 5.0 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 4.0, 3.0, 4.5, 4.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilTop6",
+									"from": [ -0.28, 0.56, 0.42 ],
+									"to": [ 0.0, 1.75, 0.7 ],
+									"rotationOrigin": [ -0.14, 0.7, 0.56 ],
+									"rotationY": -10.0,
+									"rotationZ": -90.0,
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilSideE6",
+									"from": [ 0.7, 0.0, 0.63 ],
+									"to": [ 0.98, 0.7, 0.91 ],
+									"rotationOrigin": [ 0.84, 0.35, 0.77 ],
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"east": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilBottom5",
+									"from": [ 0.63, -1.12, 0.63 ],
+									"to": [ 0.91, 0.07, 0.91 ],
+									"rotationOrigin": [ 0.77, -0.07, 0.77 ],
+									"rotationY": 10.0,
+									"rotationZ": -90.0,
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 9.5, 7.5, 10.0, 9.0 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 3.0, 2.5, 3.5, 3.0 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilsideW7",
+									"from": [ -0.28, 0.0, 0.84 ],
+									"to": [ 0.0, 0.7, 1.12 ],
+									"rotationOrigin": [ -0.14, 0.35, 0.98 ],
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 3.0, 3.0, 3.5, 4.0 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilTop7",
+									"from": [ -0.28, 0.56, 0.84 ],
+									"to": [ 0.0, 1.75, 1.12 ],
+									"rotationOrigin": [ -0.14, 0.7, 0.98 ],
+									"rotationY": -10.0,
+									"rotationZ": -90.0,
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 1.5, 2.5, 2.0, 4.0 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 5.0, 3.0, 5.5, 4.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 1.0, 0.5, 1.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilSideE7",
+									"from": [ 0.7, 0.0, 1.05 ],
+									"to": [ 0.98, 0.7, 1.33 ],
+									"rotationOrigin": [ 0.84, 0.35, 1.19 ],
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"east": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilBottom6",
+									"from": [ 0.63, -1.12, 1.05 ],
+									"to": [ 0.91, 0.07, 1.33 ],
+									"rotationOrigin": [ 0.77, -0.07, 1.19 ],
+									"rotationY": 10.0,
+									"rotationZ": -90.0,
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 5.0, 2.0, 5.5, 3.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilsideW8",
+									"from": [ -0.28, 0.0, 1.26 ],
+									"to": [ 0.0, 0.7, 1.54 ],
+									"rotationOrigin": [ -0.14, 0.35, 1.4 ],
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 1.0, 3.0, 1.5, 4.0 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilTop8",
+									"from": [ -0.28, 0.56, 1.26 ],
+									"to": [ 0.0, 1.75, 1.54 ],
+									"rotationOrigin": [ -0.14, 0.7, 1.4 ],
+									"rotationY": -10.0,
+									"rotationZ": -90.0,
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilSideE8",
+									"from": [ 0.7, 0.0, 1.47 ],
+									"to": [ 0.98, 0.7, 1.75 ],
+									"rotationOrigin": [ 0.84, 0.35, 1.61 ],
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"east": { "texture": "#copper", "uv": [ 3.0, 0.5, 3.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilBottom7",
+									"from": [ 0.63, -1.12, 1.47 ],
+									"to": [ 0.91, 0.07, 1.75 ],
+									"rotationOrigin": [ 0.77, -0.07, 1.61 ],
+									"rotationY": 10.0,
+									"rotationZ": -90.0,
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilsideW9",
+									"from": [ -0.28, 0.0, 1.68 ],
+									"to": [ 0.0, 0.7, 1.96 ],
+									"rotationOrigin": [ -0.14, 0.35, 1.82 ],
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilTop9",
+									"from": [ -0.28, 0.56, 1.68 ],
+									"to": [ 0.0, 1.75, 1.96 ],
+									"rotationOrigin": [ -0.14, 0.7, 1.82 ],
+									"rotationY": -10.0,
+									"rotationZ": -90.0,
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilSideE9",
+									"from": [ 0.7, 0.0, 1.89 ],
+									"to": [ 0.98, 0.7, 2.17 ],
+									"rotationOrigin": [ 0.84, 0.35, 2.03 ],
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"east": { "texture": "#copper", "uv": [ 1.5, 0.5, 2.0, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilBottom8",
+									"from": [ 0.63, -1.12, 1.89 ],
+									"to": [ 0.91, 0.07, 2.17 ],
+									"rotationOrigin": [ 0.77, -0.07, 2.03 ],
+									"rotationY": 10.0,
+									"rotationZ": -90.0,
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilsideW10",
+									"from": [ -0.28, 0.0, 2.1 ],
+									"to": [ 0.0, 0.7, 2.38 ],
+									"rotationOrigin": [ -0.14, 0.35, 2.24 ],
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 2.5, 4.5, 3.0, 5.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilTop10",
+									"from": [ -0.28, 0.56, 2.1 ],
+									"to": [ 0.0, 1.75, 2.38 ],
+									"rotationOrigin": [ -0.14, 0.7, 2.24 ],
+									"rotationY": -10.0,
+									"rotationZ": -90.0,
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "CoilSideE10",
+									"from": [ 0.7, -0.56, 2.31 ],
+									"to": [ 0.98, 0.7, 2.59 ],
+									"rotationOrigin": [ 0.84, 0.56, 2.45 ],
+									"rotationZ": 10.5,
+									"faces": {
+										"north": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"east": { "texture": "#copper", "uv": [ 0.5, 2.0, 1.0, 3.5 ], "autoUv": false },
+										"south": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"west": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"up": { "texture": "#copper", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								}
+							]
+						},
+						{
+							"name": "Contactorconnector2",
+							"from": [ -0.21, 0.0, 3.01 ],
+							"to": [ 0.0, 0.84, 3.5 ],
+							"rotationOrigin": [ 0.035, 0.175, 3.115 ],
+							"rotationZ": -90.0,
+							"faces": {
+								"north": { "texture": "#burned", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+								"south": { "texture": "#burned", "uv": [ 0.5, 0.0, 1.0, 1.0 ], "autoUv": false },
+								"west": { "texture": "#burned", "uv": [ 0.0, 0.0, 0.5, 1.0 ], "autoUv": false },
+								"up": { "texture": "#burned", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+								"down": { "texture": "#burned", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Contactor5",
+									"from": [ -0.95, -0.42, 0.28 ],
+									"to": [ -0.53, 0.63, 0.35 ],
+									"rotationOrigin": [ -0.81, 0.49, 0.315 ],
+									"rotationY": -5.0,
+									"rotationZ": 90.0,
+									"faces": {
+										"north": { "texture": "#brass", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"east": { "texture": "#brass", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"south": { "texture": "#brass", "uv": [ 3.5, 5.0, 4.0, 6.5 ], "autoUv": false },
+										"west": { "texture": "#brass", "uv": [ 0.0, 0.0, 0.5, 1.5 ], "autoUv": false },
+										"up": { "texture": "#brass", "uv": [ 2.0, 1.5, 2.5, 2.0 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "Contactorfixed2",
+									"from": [ -0.28, 0.14, 0.07 ],
+									"to": [ 0.14, 1.54, 0.21 ],
+									"rotationOrigin": [ -0.14, 0.49, 0.07 ],
+									"rotationZ": 90.0,
+									"faces": {
+										"north": { "texture": "#brass", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "autoUv": false },
+										"east": { "texture": "#brass", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "autoUv": false },
+										"south": { "texture": "#brass", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "autoUv": false },
+										"west": { "texture": "#brass", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "autoUv": false },
+										"up": { "texture": "#brass", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

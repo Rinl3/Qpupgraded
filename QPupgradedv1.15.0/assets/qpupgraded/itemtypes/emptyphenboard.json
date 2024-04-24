@@ -2,7 +2,7 @@
   code: "emptyphenboard",
   maxstacksize: 32,
   creativeinventory: {
-    "general": ["*"]
+    "qptech-parts": [ "*" ]
   },
   texture: {
     base: "item/emptyphenboard"
